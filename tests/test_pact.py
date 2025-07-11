@@ -47,7 +47,3 @@ class TestPact(unittest.TestCase):
                 bar = 'bar'
         except PactException:
             self.fail('PactException raised unexpectedly')
-
-
-if __name__ == "__main__":
-    unittest.main()
